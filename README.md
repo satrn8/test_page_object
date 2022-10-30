@@ -2,6 +2,11 @@
 
 * <h1>UI тесты</h1>
 
+<img src="https://user-images.githubusercontent.com/107774229/198146350-1c541de9-3ef0-429a-a9cb-96aae4444891.png" width="25"> <a href="https://jenkins.autotests.cloud/job/001_satrn8_lesson23_page_object/" target="_blank">Jenkins</a>
+
+<img src="https://user-images.githubusercontent.com/107774229/198146647-42f39a19-07b2-4bde-b21a-b570aa703f09.svg" width="25"> <a href="https://jenkins.autotests.cloud/job/001_satrn8_lesson23_page_object/2/allure/" target="_blank">Allure</a>
+
+
    * <h2>Тест поиска на странице</h2> 
   
 ![image](https://user-images.githubusercontent.com/107774229/198888678-6cb5399b-0242-44e6-aea0-132257353505.png)
