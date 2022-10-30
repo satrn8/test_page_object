@@ -1,8 +1,8 @@
 # test_page_object
 
-* UI тесты 
+* <h1>UI тесты</h1>
 
-   * <h2>Тест поиска на странице</h2>
+   * <h2>Тест поиска на странице</h2> 
   
 ![image](https://user-images.githubusercontent.com/107774229/198888678-6cb5399b-0242-44e6-aea0-132257353505.png)
   
