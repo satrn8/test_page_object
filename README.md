@@ -6,6 +6,10 @@
 
 <img src="https://user-images.githubusercontent.com/107774229/198146647-42f39a19-07b2-4bde-b21a-b570aa703f09.svg" width="25"> <a href="https://jenkins.autotests.cloud/job/001_satrn8_lesson23_page_object/2/allure/" target="_blank">Allure</a>
 
+Отчет о прохождении в Telegram-бот
+
+![image](https://user-images.githubusercontent.com/107774229/198902968-603bb3ed-4d83-4612-984c-0d9644ccc457.png)
+
 
    * <h2>Тест поиска на странице</h2> 
   
