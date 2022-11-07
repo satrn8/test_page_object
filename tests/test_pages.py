@@ -1,3 +1,4 @@
+import time
 from selene import by
 import allure
 
@@ -6,8 +7,10 @@ def test_find(setup_browser):
     browser = setup_browser
     with allure.step("Тест поиска на странице"):
         browser.open("/")
-        browser.element('[class="b-header-b-search-e-input"]').type("блакнот")
-        browser.element('[class="b-search-e-input-wrapper"]').click()
+        browser.element('[class="b-header-b-search-e-input"]').type("блокнот")
+        search = by.xpath('//button[@class="b-header-b-search-e-btn"]')
+        browser.element(search).click()
+        time.sleep(20)
 
 
 def test_click_office(setup_browser):
