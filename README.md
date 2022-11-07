@@ -1,5 +1,3 @@
-# test_page_object
-
 * <h1>UI тесты</h1>
 
 <img src="https://user-images.githubusercontent.com/107774229/198146350-1c541de9-3ef0-429a-a9cb-96aae4444891.png" width="25"> <a href="https://jenkins.autotests.cloud/job/001_satrn8_lesson23_page_object/" target="_blank">Jenkins</a>
