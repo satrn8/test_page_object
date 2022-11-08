@@ -1,5 +1,8 @@
 # <h1>UI тесты</h1>
 
+Автоматизация страницы интернет магазина Лабиринт. Тесты UI на Python с использованием Selene/Selenium, Pytest. Удаленный запуск тестов производится в Jenkins. Selenoid для изолированного запуска в Docker-контейнере.  
+Для просмотра результатов прохождения тестов используется Allure Report, Telegram-бот.  
+
 <img src="https://user-images.githubusercontent.com/107774229/198146350-1c541de9-3ef0-429a-a9cb-96aae4444891.png" width="25"> <a href="https://jenkins.autotests.cloud/job/001_satrn8_lesson23_page_object/" target="_blank">Jenkins</a>
 
 <img src="https://user-images.githubusercontent.com/107774229/198146647-42f39a19-07b2-4bde-b21a-b570aa703f09.svg" width="25"> <a href="https://jenkins.autotests.cloud/job/001_satrn8_lesson23_page_object/2/allure/" target="_blank">Allure</a>
