@@ -3,6 +3,29 @@
 UI тесты интернет-магазина Лабиринт выполнены на языке Python с использованием Selene/Selenium, Pytest. Удаленный запуск тестов производится в Jenkins. Selenoid для изолированного запуска в Docker-контейнере.  
 Для просмотра результатов прохождения тестов используется Allure Report, Telegram-бот.  
 
+____________________________________________________________________________________________________
+Установка
+
+```
+git clone https://github.com/satrn8/test_page_object.git
+```
+Запуск локально
+```
+pytest .\tests\test_pages.py --alluredir reports\
+```
+Запуск удаленно
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pytest .
+```
+Генерация отсчета локально
+```
+allure serve .\reports\ 
+```
+______________________________________________________________________________________________________________
+
 <img src="https://user-images.githubusercontent.com/107774229/198146350-1c541de9-3ef0-429a-a9cb-96aae4444891.png" width="25"> <a href="https://jenkins.autotests.cloud/job/001_satrn8_lesson23_page_object/" target="_blank">Jenkins</a>
 
 <img src="https://user-images.githubusercontent.com/107774229/198146647-42f39a19-07b2-4bde-b21a-b570aa703f09.svg" width="25"> <a href="https://jenkins.autotests.cloud/job/001_satrn8_lesson23_page_object/2/allure/" target="_blank">Allure</a>
