@@ -20,7 +20,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 pytest .
 ```
-Генерация отсчета локально
+Генерация отчета локально
 ```
 allure serve .\reports\ 
 ```
