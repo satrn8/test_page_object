@@ -10,7 +10,6 @@ def test_find(setup_browser):
         browser.element('[class="b-header-b-search-e-input"]').type("блокнот")
         search = by.xpath('//button[@class="b-header-b-search-e-btn"]')
         browser.element(search).click()
-        time.sleep(20)
 
 
 def test_click_office(setup_browser):
@@ -57,7 +56,6 @@ def test_school(setup_browser):
         browser.element(price_max).type(2500)
         show_book = by.xpath('//input[@class="btn btn-primary btn-small" and @value="Показать"]')
         browser.element(show_book).click()
-        browser.config.timeout = 100
 
 
 def test_shipping_and_payment(setup_browser):
