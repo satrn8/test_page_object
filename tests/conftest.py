@@ -8,7 +8,6 @@ from utils import attach
 browser.config.timeout = 20
 
 
-
 @pytest.fixture(scope='function', autouse=True)
 def browser_config():
     browser.config.base_url = os.getenv('selene.base_url', 'https://www.labirint.ru')
