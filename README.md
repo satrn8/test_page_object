@@ -11,7 +11,7 @@ git clone https://github.com/satrn8/test_page_object.git
 ```
 Запуск локально
 ```
-pytest .\tests\test_pages.py --alluredir reports\
+pytest .\tests\ --alluredir reports\
 ```
 Запуск удаленно
 ```
