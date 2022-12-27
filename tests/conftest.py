@@ -32,18 +32,18 @@ def setup_browser():
         "browserName": "chrome",
         "browserVersion": "100.0",
         "selenoid:options": {
-#            "enableVNC": True,
+            "enableVNC": True,
             "enableVideo": False
         }
     }
 
     options.capabilities.update(selenoid_capabilities)
-
+    remote_drv = os.getenv('REMOTE_DRV')
     login = os.getenv("LOGIN")
     password = os.getenv("PASSWORD")
     driver = webdriver.Remote(
         # command_executor=f"https://{login}:{password}@selenoid.autotests.cloud/wd/hub",
-        command_executor=f"http://192.168.0.153:4444/wd/hub",
+        command_executor=f"{remote_drv}",
 
         options=options)
 
